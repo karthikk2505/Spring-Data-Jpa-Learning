@@ -32,7 +32,7 @@ import org.hibernate.annotations.ManyToAny;
 // here union will be used to retrive the data in table per class strategy
 //@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 // three individual tables will be created and join will be used to retrive
-@Inheritance(strategy = InheritanceType.JOINED)
+//@Inheritance(strategy = InheritanceType.JOINED)
 // while using ineritance it became more complex like joining multiple tables.
 // so that @MappedSuperClass came which does not create a n entity for super class
 // and while retriving data we have to seperately get each sub class Entity data.
