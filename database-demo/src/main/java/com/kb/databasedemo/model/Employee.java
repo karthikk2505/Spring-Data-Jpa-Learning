@@ -42,7 +42,7 @@ import org.hibernate.annotations.ManyToAny;
 public abstract class Employee {
 	@Id
 	@GeneratedValue()
-    @Column(name = "id", insertable = true, updatable = true, nullable = false)// if we give insertable = true we ca manyally enter the primary value as well.
+    @Column(name = "id", insertable = true, updatable = true, nullable = false)
 	private int id;
 	private String name;
 	
